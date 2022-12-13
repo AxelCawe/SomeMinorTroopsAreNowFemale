@@ -1,0 +1,3226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <NPCCharacter id="ghilman_tier_1_female"
+                default_group="Cavalry"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.darshi"
+                name="{=KnhpjA7Y}Koleman"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="Throwing"
+             value="5" />
+      <skill id="TwoHanded"
+             value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.ghilman_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item2"
+                   id="Item.bound_desert_round_shield" />
+        <equipment slot="Body"
+                   id="Item.eastern_silk_clothing" />
+        <equipment slot="Leg"
+                   id="Item.fine_town_boots" />
+        <equipment slot="Head"
+                   id="Item.desert_headdress" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.aseran_village_harness" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ghilman_tier_2_female"
+                default_group="Cavalry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.darshi"
+                name="{=ghilmanUnit}Ghilman"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="80" />
+      <skill id="Bow"
+             value="10" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.ghilman_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.aserai_sword_3_t3" />
+        <equipment slot="Item2"
+                   id="Item.bound_desert_round_shield" />
+        <equipment slot="Head"
+                   id="Item.desert_headdress" />
+        <equipment slot="Body"
+                   id="Item.aserai_archer_armor" />
+        <equipment slot="Gloves"
+                   id="Item.decorated_imperial_gauntlets" />
+        <equipment slot="Leg"
+                   id="Item.decorated_imperial_boots" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.half_mail_and_plate_barding" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="ghilman_tier_3_female"
+                default_group="Cavalry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.darshi"
+                name="{=7EUhAv8b}Ghulam"
+                upgrade_requires="ItemCategory.war_horse"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="90" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Bow"
+             value="15" />
+      <skill id="Crossbow"
+             value="35" />
+      <skill id="Throwing"
+             value="45" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.aserai_mace_4_t4" />
+        <equipment slot="Item2"
+                   id="Item.tribal_steppe_shield" />
+        <equipment slot="Head"
+                   id="Item.southern_lord_helmet" />
+        <equipment slot="Body"
+                   id="Item.desert_scale_armor" />
+        <equipment slot="Leg"
+                   id="Item.lamellar_plate_boots" />
+        <equipment slot="Gloves"
+                   id="Item.lamellar_plate_gauntlets" />
+        <equipment slot="Cape"
+                   id="Item.imperial_lamellar_shoulders" />
+        <equipment slot="Horse"
+                   id="Item.war_camel" />
+        <equipment slot="HorseHarness"
+                   id="Item.camel_saddle" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- lost legion - -->
+  <NPCCharacter id="legion_of_the_betrayed_tier_1_female"
+                default_group="Infantry"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.empire"
+                name="{=G9ByT85b}Hastati"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="15" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.legion_of_the_betrayed_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.woven_leather_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.woven_leather_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.woven_leather_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.woven_leather_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="legion_of_the_betrayed_tier_2_female"
+                default_group="Infantry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.empire"
+                name="{=qMYpZKWo}Principes"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="30" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.legion_of_the_betrayed_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.reinforced_flat_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_2_t3" />
+        <equipment slot="Body"
+                   id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.tall_helmet" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.reinforced_flat_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_2_t3" />
+        <equipment slot="Body"
+                   id="Item.eastern_studded_leather" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.tall_helmet" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="legion_of_the_betrayed_tier_3_female"
+                default_group="Infantry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.empire"
+                name="{=cOt1onbR}Triarii"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="90" />
+      <skill id="Riding"
+             value="45" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="80" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.imperial_throwing_spear_1_t4" />
+        <equipment slot="Body"
+                   id="Item.imperial_lamellar_over_leather" />
+        <equipment slot="Leg"
+                   id="Item.lamellar_plate_boots" />
+        <equipment slot="Head"
+                   id="Item.plumed_helmet" />
+        <equipment slot="Gloves"
+                   id="Item.lamellar_plate_gauntlets" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.imperial_throwing_spear_1_t4" />
+        <equipment slot="Body"
+                   id="Item.legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.lamellar_plate_boots" />
+        <equipment slot="Head"
+                   id="Item.plumed_helmet" />
+        <equipment slot="Gloves"
+                   id="Item.lamellar_plate_gauntlets" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="skolderbrotva_tier_1_female"
+                default_group="Infantry"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.nord"
+                name="{=uViDMxLC}Skolder Recruit"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="15" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.skolderbrotva_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.northern_spear_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_scouts_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Item3"
+                   id="Item.sturgia_axe_2_t2" />
+        <equipment slot="Body"
+                   id="Item.northern_tunic" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet" />
+        <equipment slot="Leg"
+                   id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.northern_spear_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_scouts_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Item3"
+                   id="Item.sturgia_axe_2_t2" />
+        <equipment slot="Body"
+                   id="Item.northern_tunic" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet" />
+        <equipment slot="Leg"
+                   id="Item.highland_leg_wrappings" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="skolderbrotva_tier_2_female"
+                default_group="Infantry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.nord"
+                name="{=LXybWXde}Skolder Warrior Broda"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="30" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.skolderbrotva_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.northern_axe_t3" />
+        <equipment slot="Item1"
+                   id="Item.viking_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Item3"
+                   id="Item.sturgia_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_goggled_helmet" />
+        <equipment slot="Body"
+                   id="Item.armored_baggy_trunks" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.northern_axe_t3" />
+        <equipment slot="Item1"
+                   id="Item.leather_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_throwing_axe_1_t1" />
+        <equipment slot="Item3"
+                   id="Item.sturgia_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.sturgian_lord_helmet_b" />
+        <equipment slot="Body"
+                   id="Item.baggy_trunks" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_armwraps" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="skolderbrotva_tier_3_female"
+                default_group="Infantry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.nord"
+                name="{=YGexslSX}Skolder Veteran Broda"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="30" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.sturgia_2haxe_1_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item3"
+                   id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Head"
+                   id="Item.goggled_helmet_over_full_mail" />
+        <equipment slot="Body"
+                   id="Item.nordic_hauberk" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.sturgia_2haxe_1_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item3"
+                   id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Head"
+                   id="Item.closed_goggled_helmet" />
+        <equipment slot="Body"
+                   id="Item.sturgian_chainmale_shortsleeve" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_armwraps" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.sturgia_2haxe_1_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item3"
+                   id="Item.sturgia_sword_4_t4" />
+        <equipment slot="Head"
+                   id="Item.nordic_helmet" />
+        <equipment slot="Body"
+                   id="Item.decorated_nordic_hauberk" />
+        <equipment slot="Leg"
+                   id="Item.northern_plated_boots" />
+        <equipment slot="Gloves"
+                   id="Item.rough_tied_bracers" />
+        <equipment slot="Cape"
+                   id="Item.mail_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t2"
+                    civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- free company/vlandia -->
+  <NPCCharacter id="company_of_the_boar_tier_1_female"
+                default_group="Ranged"
+                level="6"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.vlandia"
+                name="{=9Bw85Elg}Boar Novice"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="40" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.company_of_the_boar_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.crossbow_b" />
+        <equipment slot="Item1"
+                   id="Item.bolt_a" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.small_heater_shield" />
+        <equipment slot="Body"
+                   id="Item.layered_leather_tunic" />
+        <equipment slot="Head"
+                   id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+        <equipment slot="Cape"
+                   id="Item.battania_woodland_cloak" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="company_of_the_boar_tier_2_female"
+                default_group="Ranged"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.vlandia"
+                name="{=9Ylw5Spz}Boar Veteran"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="30" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="10" />
+      <skill id="Crossbow"
+             value="70" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.company_of_the_boar_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.crossbow_b" />
+        <equipment slot="Item1"
+                   id="Item.bolt_a" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.flat_heater_shield" />
+        <equipment slot="Head"
+                   id="Item.segmented_cervelliere_over_laced_coif" />
+        <equipment slot="Body"
+                   id="Item.aketon" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+        <equipment slot="Cape"
+                   id="Item.battania_woodland_cloak" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="company_of_the_boar_tier_3_female"
+                default_group="Ranged"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.vlandia"
+                name="{=cSdSSXsO}Boar Champion"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="100" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.crossbow_d" />
+        <equipment slot="Item1"
+                   id="Item.bolt_a" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_2_t4" />
+        <equipment slot="Item3"
+                   id="Item.pavise_shield" />
+        <equipment slot="Head"
+                   id="Item.segmented_cervelliere_over_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.sleeveless_padded_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+        <equipment slot="Cape"
+                   id="Item.battania_woodland_cloak" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- troop trees for mercenary outlaw minor factions (8) -->
+  <!-- beni zul/aserai -->
+  <NPCCharacter id="beni_zilal_tier_1_female"
+                default_group="Cavalry"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.aserai"
+                name="{=uca778lM}Beni Zilal Recruit"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="10" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="30" />
+      <skill id="TwoHanded"
+             value="5" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="10" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.beni_zilal_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_1_t2" />
+        <equipment slot="Item0"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Head"
+                   id="Item.pilgrim_hood" />
+        <equipment slot="Body"
+                   id="Item.aserai_civil_a" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.bandit_saddle_desert" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_1_t2" />
+        <equipment slot="Item0"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Head"
+                   id="Item.aserai_civil_f_cape" />
+        <equipment slot="Body"
+                   id="Item.aserai_civil_a" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.aseran_village_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_1_t2" />
+        <equipment slot="Item0"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Head"
+                   id="Item.tuareg" />
+        <equipment slot="Body"
+                   id="Item.vlandia_bandit_a" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.bandit_saddle_desert" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="beni_zilal_tier_2_female"
+                default_group="Cavalry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                name="{=9zXXes9i}Beni Zilal Soldier"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="90" />
+      <skill id="OneHanded"
+             value="30" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="80" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.beni_zilal_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.pilgrim_hood" />
+        <equipment slot="Body"
+                   id="Item.long_padded_robe" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape"
+                   id="Item.wrapped_scarf" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.desert_cloth_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
+        <equipment slot="Body"
+                   id="Item.long_padded_robe" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape"
+                   id="Item.wrapped_scarf" />
+        <equipment slot="Horse"
+                   id="Item.t2_aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.desert_cloth_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
+        <equipment slot="Body"
+                   id="Item.desert_padded_cloth" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape"
+                   id="Item.stitched_leather_shoulders" />
+        <equipment slot="Horse"
+                   id="Item.t2_aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.desert_cloth_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.closed_head_scarf" />
+        <equipment slot="Body"
+                   id="Item.short_padded_robe" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape"
+                   id="Item.wrapped_scarf" />
+        <equipment slot="Horse"
+                   id="Item.t2_aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.desert_cloth_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.closed_head_scarf" />
+        <equipment slot="Body"
+                   id="Item.short_padded_robe" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape"
+                   id="Item.wrapped_scarf" />
+        <equipment slot="Horse"
+                   id="Item.t2_aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.desert_cloth_harness" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="beni_zilal_tier_3_female"
+                default_group="Cavalry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                name="{=8Gh8q1PX}Beni Zilal Royal Guard"
+                upgrade_requires="ItemCategory.war_horse"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="65" />
+      <skill id="Riding"
+             value="110" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Bow"
+             value="25" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="95" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_4_t4" />
+        <equipment slot="Head"
+                   id="Item.pilgrim_hood" />
+        <equipment slot="Body"
+                   id="Item.stitched_leather_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+        <equipment slot="Cape"
+                   id="Item.stitched_leather_shoulders" />
+        <equipment slot="Horse"
+                   id="Item.t2_aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.half_mail_and_plate_barding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_4_t4" />
+        <equipment slot="Head"
+                   id="Item.closed_desert_helmet" />
+        <equipment slot="Body"
+                   id="Item.aserai_robe_c_chain" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+        <equipment slot="Cape"
+                   id="Item.wrapped_scarf" />
+        <equipment slot="Horse"
+                   id="Item.t2_aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.half_mail_and_plate_barding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item1"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.aserai_sword_4_t4" />
+        <equipment slot="Head"
+                   id="Item.closed_desert_helmet" />
+        <equipment slot="Body"
+                   id="Item.aserai_robe_c_chain" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+        <equipment slot="Cape"
+                   id="Item.wrapped_scarf" />
+        <equipment slot="Horse"
+                   id="Item.t2_aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.half_mail_and_plate_barding" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- wolfskins - battanians with no armor or cloth, only animal hides -->
+  <NPCCharacter id="wolfskins_tier_1_female"
+                default_group="Ranged"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.battania"
+                name="{=mrBbsiPN}Young Wolf"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="50" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="15" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.wolfskins_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.highland_scouts_shield" />
+        <equipment slot="Item3"
+                   id="Item.small_spurred_axe_t2" />
+        <equipment slot="Body"
+                   id="Item.sleeveless_studded_fur_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+        <equipment slot="Head"
+                   id="Item.wolfhead" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.highland_scouts_shield" />
+        <equipment slot="Item3"
+                   id="Item.battania_axe_1_t2" />
+        <equipment slot="Body"
+                   id="Item.sleeveless_studded_fur_armor" />
+        <equipment slot="Leg"
+                   id="Item.rough_tied_boots" />
+        <equipment slot="Head"
+                   id="Item.wolfhead" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wolfskins_tier_2_female"
+                default_group="Ranged"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.battania"
+                name="{=q7b4pQc9}Seasoned Wolf"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="30" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.wolfskins_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.reinforced_flat_kite_shield" />
+        <equipment slot="Item3"
+                   id="Item.small_spurred_axe_t2" />
+        <equipment slot="Head"
+                   id="Item.wolfhead" />
+        <equipment slot="Body"
+                   id="Item.bandit_fur_b" />
+        <equipment slot="Leg"
+                   id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_armwraps" />
+        <equipment slot="Cape"
+                   id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.reinforced_flat_kite_shield" />
+        <equipment slot="Item3"
+                   id="Item.small_spurred_axe_t2" />
+        <equipment slot="Head"
+                   id="Item.wolfhead" />
+        <equipment slot="Body"
+                   id="Item.bandit_fur_b" />
+        <equipment slot="Leg"
+                   id="Item.rough_tied_boots" />
+        <equipment slot="Gloves"
+                   id="Item.rough_tied_bracers" />
+        <equipment slot="Cape"
+                   id="Item.wolf_shoulder" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wolfskins_tier_3_female"
+                default_group="Ranged"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.battania"
+                name="{=QvSmhaAV}Chosen Wolf"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="120" />
+      <skill id="Riding"
+             value="25" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="30" />
+      <skill id="Bow"
+             value="130" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_yew_bow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.bracketed_heater_shield" />
+        <equipment slot="Item3"
+                   id="Item.battania_axe_2_t4" />
+        <equipment slot="Head"
+                   id="Item.wolfhead" />
+        <equipment slot="Body"
+                   id="Item.bandit_fur_b" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.rough_bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.bracketed_heater_shield" />
+        <equipment slot="Item3"
+                   id="Item.battania_axe_2_t4" />
+        <equipment slot="Head"
+                   id="Item.wolfhead" />
+        <equipment slot="Body"
+                   id="Item.bandit_fur_b" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.armored_bearskin" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- hidden ones - -->
+  <NPCCharacter id="hidden_hand_tier_1_female"
+                default_group="Infantry"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.empire"
+                name="{=ehACDRBk}Hidden Pawn"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hidden_hand_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_throwing_knife" />
+        <equipment slot="Item1"
+                   id="Item.lowland_throwing_knife" />
+        <equipment slot="Item2"
+                   id="Item.lowland_throwing_knife" />
+        <equipment slot="Item3"
+                   id="Item.iron_spatha_sword_t2" />
+        <equipment slot="Body"
+                   id="Item.layered_leather_tunic" />
+        <equipment slot="Head"
+                   id="Item.pilgrim_hood" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_throwing_knife" />
+        <equipment slot="Item1"
+                   id="Item.lowland_throwing_knife" />
+        <equipment slot="Item2"
+                   id="Item.lowland_throwing_knife" />
+        <equipment slot="Item3"
+                   id="Item.iron_spatha_sword_t2" />
+        <equipment slot="Body"
+                   id="Item.layered_leather_tunic" />
+        <equipment slot="Head"
+                   id="Item.pilgrim_hood" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="hidden_hand_tier_2_female"
+                default_group="Infantry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.empire"
+                name="{=MVHawAEp}Hidden Hand"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="30" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hidden_hand_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.leafblade_throwing_knife" />
+        <equipment slot="Item1"
+                   id="Item.leafblade_throwing_knife" />
+        <equipment slot="Item2"
+                   id="Item.leafblade_throwing_knife" />
+        <equipment slot="Item3"
+                   id="Item.narrow_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.imperial_open_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.studded_leather_over_aketon" />
+        <equipment slot="Leg"
+                   id="Item.folded_town_boots" />
+        <equipment slot="Gloves"
+                   id="Item.woven_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.leafblade_throwing_knife" />
+        <equipment slot="Item1"
+                   id="Item.leafblade_throwing_knife" />
+        <equipment slot="Item2"
+                   id="Item.leafblade_throwing_knife" />
+        <equipment slot="Item3"
+                   id="Item.narrow_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.imperial_open_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.studded_leather_over_aketon" />
+        <equipment slot="Leg"
+                   id="Item.folded_town_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="hidden_hand_tier_3_female"
+                default_group="Infantry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.empire"
+                name="{=PU2zIMu0}Puppeteer"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="50" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="65" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="25" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_throwingknife_t5" />
+        <equipment slot="Item1"
+                   id="Item.empire_throwingknife_t5" />
+        <equipment slot="Item2"
+                   id="Item.empire_throwingknife_t5" />
+        <equipment slot="Item3"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Head"
+                   id="Item.ironlame_nasalhelm_over_imperial_coif" />
+        <equipment slot="Body"
+                   id="Item.imperial_mail_vest" />
+        <equipment slot="Leg"
+                   id="Item.plated_strip_boots" />
+        <equipment slot="Gloves"
+                   id="Item.reinforced_padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_throwingknife_t5" />
+        <equipment slot="Item1"
+                   id="Item.empire_throwingknife_t5" />
+        <equipment slot="Item2"
+                   id="Item.empire_throwingknife_t5" />
+        <equipment slot="Item3"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Head"
+                   id="Item.imperial_open_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.imperial_mail_over_leather" />
+        <equipment slot="Leg"
+                   id="Item.plated_strip_boots" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- the water and the stone - -->
+  <!-- lakepike/sturgia - -->
+  <NPCCharacter id="lakepike_tier_1_female"
+                default_group="Infantry"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.sturgia"
+                name="{=6j9iJMRr}Lake Rat Recruit"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.lakepike_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.small_bit_axe_t2" />
+        <equipment slot="Item1"
+                   id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_javelin_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.northern_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.layered_leather_tunic" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.small_bit_axe_t2" />
+        <equipment slot="Item1"
+                   id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_javelin_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.northern_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.nordic_sloven_leather" />
+        <equipment slot="Leg"
+                   id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.small_bit_axe_t2" />
+        <equipment slot="Item1"
+                   id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_javelin_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.northern_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.stitched_leather_vest" />
+        <equipment slot="Leg"
+                   id="Item.belted_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.small_bit_axe_t2" />
+        <equipment slot="Item1"
+                   id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.northern_javelin_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.northern_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.northern_lamellar_armor" />
+        <equipment slot="Leg"
+                   id="Item.belted_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lakepike_tier_2_female"
+                default_group="Infantry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.sturgia"
+                name="{=1gAasy1t}Lake Rat Veteran"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="30" />
+      <skill id="OneHanded"
+             value="30" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="80" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.lakepike_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item1"
+                   id="Item.northern_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item3"
+                   id="Item.generic_javelin_1_t3" />
+        <equipment slot="Body"
+                   id="Item.layered_leather_tunic" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_with_mail" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item1"
+                   id="Item.northern_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item3"
+                   id="Item.generic_javelin_1_t3" />
+        <equipment slot="Body"
+                   id="Item.nordic_sloven_leather" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_with_mail" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item1"
+                   id="Item.northern_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item3"
+                   id="Item.generic_javelin_1_t3" />
+        <equipment slot="Body"
+                   id="Item.stitched_leather_vest" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.goggled_helmet_over_leather" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item1"
+                   id="Item.northern_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.generic_javelin_1_t3" />
+        <equipment slot="Item3"
+                   id="Item.generic_javelin_1_t3" />
+        <equipment slot="Body"
+                   id="Item.northern_lamellar_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.goggled_helmet_over_leather" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lakepike_tier_3_female"
+                default_group="Infantry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.sturgia"
+                name="{=BC5YGna3}Lake Rat Wrecker "
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="55" />
+      <skill id="Riding"
+             value="30" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="110" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battle_axe_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item3"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.nordic_helmet" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battle_axe_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item3"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.nordic_sloven_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.closed_goggled_helmet" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battle_axe_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item3"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.nordic_hauberk" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.lendman_helmet_over_full_mail" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battle_axe_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Item3"
+                   id="Item.western_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.decorated_nordic_hauberk" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.goggled_helmet_over_full_mail" />
+        <equipment slot="Cape"
+                   id="Item.mail_shoulders" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- brotherhood of woods - -->
+  <NPCCharacter id="brotherhood_of_woods_tier_1_female"
+                default_group="Ranged"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.vlandia"
+                name="{=DIt9SuMb}Sprout"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="15" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.brotherhood_of_woods_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.hunting_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.falchion_sword_t2" />
+        <equipment slot="Head"
+                   id="Item.battania_civil_hood" />
+        <equipment slot="Body"
+                   id="Item.leather_coat_over_cloth" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.hunting_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.falchion_sword_t2" />
+        <equipment slot="Head"
+                   id="Item.battania_civil_hood" />
+        <equipment slot="Body"
+                   id="Item.leather_coat_over_cloth" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.hunting_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.falchion_sword_t2" />
+        <equipment slot="Body"
+                   id="Item.leather_coat_over_cloth" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="brotherhood_of_woods_tier_2_female"
+                default_group="Ranged"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.vlandia"
+                name="{=riT39wKu}Sapling"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="45" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="90" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.brotherhood_of_woods_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.pilgrim_hood" />
+        <equipment slot="Body"
+                   id="Item.stitched_leather_vest" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.pilgrim_hood" />
+        <equipment slot="Body"
+                   id="Item.stitched_leather_vest" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="brotherhood_of_woods_tier_3_female"
+                default_group="Ranged"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.vlandia"
+                name="{=u3K1SozQ}Arboreal"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="110" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="90" />
+      <skill id="TwoHanded"
+             value="45" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="100" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_yew_bow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_3_t4" />
+        <equipment slot="Body"
+                   id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+        <equipment slot="Cape"
+                   id="Item.green_hood" />
+        <equipment slot="Head"
+                   id="Item.cervelliere_over_cloth_headwrap" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- Embers of the Flame Troops - -->
+  <NPCCharacter id="embers_of_flame_tier_1_female"
+                default_group="Infantry"
+                level="6"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.empire"
+                name="{=xJ4koSsx}Spark"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="15" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.embers_of_flame_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.simple_back_sword_t2" />
+        <equipment slot="Body"
+                   id="Item.monk_robe" />
+        <equipment slot="Head"
+                   id="Item.pilgrim_hood" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="embers_of_flame_tier_2_female"
+                default_group="Infantry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.empire"
+                name="{=BlZK3wDN}Flame"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="50" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="45" />
+      <skill id="Polearm"
+             value="65" />
+      <skill id="Bow"
+             value="90" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.embers_of_flame_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.narrow_sword_t3" />
+        <equipment slot="Body"
+                   id="Item.monk_robe" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_with_leather" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="embers_of_flame_tier_3_female"
+                default_group="Infantry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.empire"
+                name="{=UsvCnAS7}Blaze"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="45" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="70" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.broad_arming_sword_t4" />
+        <equipment slot="Cape"
+                   id="Item.studded_imperial_neckguard" />
+        <equipment slot="Body"
+                   id="Item.monk_robe" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_with_mail" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- troop trees for mercenary nomad minor factions (4) -->
+  <!-- jawwal - tuareg-style horsemen and half-naked infantry with wicker shields -->
+  <NPCCharacter id="jawwal_tier_1_female"
+                default_group="Infantry"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.aserai"
+                name="{=vxlAJIiU}Jawwal Recruit"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_jawwal" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="180" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.jawwal_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Head"
+                   id="Item.closed_head_scarf" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="jawwal_tier_2_female"
+                default_group="Cavalry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                name="{=Mcbjdntz}Jawwal Camel Rider"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_jawwal" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="110" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="110" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.jawwal_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.triangluar_spear_t3" />
+        <equipment slot="Item1"
+                   id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.desert_long_sword_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.camel" />
+        <equipment slot="HorseHarness"
+                   id="Item.camel_saddle" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.triangluar_spear_t3" />
+        <equipment slot="Item1"
+                   id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.desert_long_sword_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.camel" />
+        <equipment slot="HorseHarness"
+                   id="Item.camel_saddle" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.triangluar_spear_t3" />
+        <equipment slot="Item1"
+                   id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.desert_long_sword_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.camel" />
+        <equipment slot="HorseHarness"
+                   id="Item.camel_saddle" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.triangluar_spear_t3" />
+        <equipment slot="Item1"
+                   id="Item.stronger_footmans_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.desert_long_sword_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Head"
+                   id="Item.tight_head_scarf" />
+        <equipment slot="Cape"
+                   id="Item.leopard_pelt" />
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.camel" />
+        <equipment slot="HorseHarness"
+                   id="Item.camel_saddle" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="jawwal_tier_3_female"
+                default_group="Cavalry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                name="{=qAvxmnav}Jawwal Bedouin"
+                upgrade_requires="ItemCategory.war_horse"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_jawwal" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="140" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.desert_long_sword_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.layered_robe" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.war_camel" />
+        <equipment slot="HorseHarness"
+                   id="Item.camel_saddle" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.desert_long_sword_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Head"
+                   id="Item.closed_desert_helmet" />
+        <equipment slot="Body"
+                   id="Item.tassled_southern_robes" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.war_camel" />
+        <equipment slot="HorseHarness"
+                   id="Item.camel_saddle" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.stronger_eastern_wicker_shield" />
+        <equipment slot="Item2"
+                   id="Item.desert_long_sword_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.layered_robe" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.war_camel" />
+        <equipment slot="HorseHarness"
+                   id="Item.camel_saddle" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- karakhuzaits - different headgear (scythian cap? hunnic hood?) but otherwise poorer-looking nomads -->
+  <NPCCharacter id="karakhuzaits_tier_1_female"
+                default_group="HorseArcher"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.khuzait"
+                name="{=cDgsaaRB}Karakhergit Nomad"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="10" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.karakhuzaits_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.upturned_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.studded_steppe_leather" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.khuzait_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.steppe_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.studded_steppe_leather" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.khuzait_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.steppe_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.upturned_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.studded_steppe_leather" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.khuzait_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.bandit_saddle_desert" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.steppe_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.upturned_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.studded_steppe_leather" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Horse"
+                   id="Item.khuzait_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.bandit_saddle_desert" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="karakhuzaits_tier_2_female"
+                default_group="HorseArcher"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.khuzait"
+                name="{=UvK3XaZ6}Karakhergit Rider"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="30" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.karakhuzaits_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Body"
+                   id="Item.belted_leather_cuirass" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+        <equipment slot="Gloves"
+                   id="Item.steppe_leather_vambraces" />
+        <equipment slot="Horse"
+                   id="Item.t2_khuzait_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.steppe_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Head"
+                   id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Body"
+                   id="Item.belted_leather_cuirass" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+        <equipment slot="Gloves"
+                   id="Item.steppe_leather_vambraces" />
+        <equipment slot="Horse"
+                   id="Item.t2_khuzait_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.steppe_harness" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="karakhuzaits_tier_3_female"
+                default_group="HorseArcher"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.khuzait"
+                name="{=KbyRj9b3}Karakhergit Elder"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="45" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="110" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_war_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Head"
+                   id="Item.plumed_nomad_helmet" />
+        <equipment slot="Body"
+                   id="Item.stitched_leather_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Horse"
+                   id="Item.storm_charger" />
+        <equipment slot="HorseHarness"
+                   id="Item.steppe_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.steppe_war_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.ridged_sabre_sword_t4" />
+        <equipment slot="Head"
+                   id="Item.plumed_nomad_helmet" />
+        <equipment slot="Body"
+                   id="Item.stitched_leather_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Horse"
+                   id="Item.storm_charger" />
+        <equipment slot="HorseHarness"
+                   id="Item.steppe_harness" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!-- forest people/sturgia  -->
+  <NPCCharacter id="forest_people_tier_1_female"
+                default_group="Ranged"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.vakken"
+                name="{=h7nGFImt}Recruit Forester"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.forest_people_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mountain_hunting_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.default_arrows" />
+        <equipment slot="Item3"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Head"
+                   id="Item.vlandia_bandit_cape_b" />
+        <equipment slot="Body"
+                   id="Item.crude_leather_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.mountain_hunting_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.default_arrows" />
+        <equipment slot="Item3"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Body"
+                   id="Item.crude_leather_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="forest_people_tier_2_female"
+                default_group="Ranged"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.vakken"
+                name="{=2HDPaohZ}Expert Forester"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="0" />
+      <skill id="TwoHanded"
+             value="30" />
+      <skill id="Polearm"
+             value="30" />
+      <skill id="Bow"
+             value="90" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.forest_people_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.nordic_shortbow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.default_arrows" />
+        <equipment slot="Item3"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Head"
+                   id="Item.thinhide_coif" />
+        <equipment slot="Body"
+                   id="Item.woven_leather_vest" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.armwraps" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="forest_people_tier_3_female"
+                default_group="Ranged"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.vakken"
+                name="{=ueasbGtd}Veteran Forester"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="110" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="90" />
+      <skill id="TwoHanded"
+             value="45" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="100" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item3"
+                   id="Item.battle_axe_t4" />
+        <equipment slot="Head"
+                   id="Item.bearhead" />
+        <equipment slot="Body"
+                   id="Item.leather_scale_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_armwraps" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- eleftheroi/empire -  -->
+  <NPCCharacter id="eleftheroi_tier_1_female"
+                default_group="Cavalry"
+                level="11"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.empire"
+                name="{=S6BosJUq}Recruit Eleftheroi"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.eleftheroi_tier_2_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.empire_mace_1_t2" />
+        <equipment slot="Body"
+                   id="Item.baggy_trunks" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Horse"
+                   id="Item.empire_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.bandit_saddle_steppe" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.empire_mace_1_t2" />
+        <equipment slot="Body"
+                   id="Item.armored_baggy_trunks" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Horse"
+                   id="Item.empire_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.bandit_saddle_steppe" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="eleftheroi_tier_2_female"
+                default_group="Cavalry"
+                level="16"
+                occupation="Soldier"
+                culture="Culture.empire"
+                name="{=qBVNIhme}Expert Eleftheroi"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="30" />
+      <skill id="Riding"
+             value="70" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.eleftheroi_tier_3_female" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.light_mace_t3" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+        <equipment slot="Body"
+                   id="Item.battania_civil_c" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.bearskin" />
+        <equipment slot="Horse"
+                   id="Item.empire_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.light_harness" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="eleftheroi_tier_3_female"
+                default_group="Cavalry"
+                level="21"
+                occupation="Soldier"
+                culture="Culture.empire"
+                name="{=cEKbOxRA}Veteran Eleftheroi"
+		        is_female="true">  
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="45" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.empire_mace_3_t4" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+        <equipment slot="Body"
+                   id="Item.northern_padded_gambeson" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cape" />
+        <equipment slot="Leg"
+                   id="Item.leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+        <equipment slot="Horse"
+                   id="Item.empire_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.northern_noble_harness" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+    </NPCCharacter>
+  <!-- end of minor faction troop trees -->
+</NPCCharacters>
